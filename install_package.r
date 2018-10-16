@@ -34,7 +34,7 @@ install.cran.or.bioconductor <- function (repo, packages) {
 }
 
 #install.packages(pkgs = c("ggplot2","dplyr"))
-cran.packages=c("ggplot2","dplyr","XML")
+cran.packages=c("ggplot2","dplyr","XML",'rmarkdown')
 install.cran.or.bioconductor("cran",cran.packages)
 
 # install bioconductor package
